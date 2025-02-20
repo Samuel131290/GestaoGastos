@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>backend</name>
+    </assembly>
+    <members>
+        <member name="M:backend.Controllers.ResumoController.ObterResumoFinanceiro">
+            <summary>
+            Obtém o resumo financeiro de todos os usuários.
+            </summary>
+            <returns>Resumo financeiro geral e por usuário.</returns>
+            <response code="200">Retorna o resumo financeiro com sucesso.</response>
+            <response code="500">Erro interno no servidor.</response>
+        </member>
+        <member name="M:backend.Controllers.TransacaoController.Listar">
+            <summary>
+            Lista todas as transações registradas no sistema.
+            </summary>
+            <returns>Lista de todas as transações com status 200.</returns>
+            <response code="200">Retorna a lista de transações com sucesso.</response>
+            <response code="500">Erro interno no servidor ao tentar recuperar as transações.</response>
+        </member>
+        <member name="M:backend.Controllers.TransacaoController.Criar(backend.Models.Transacao)">
+            <summary>
+            Cria uma nova transação no sistema.
+            </summary>
+            <param name="transacao">Objeto contendo os dados da transação a ser criada.</param>
+            <returns>A transação criada com status 201.</returns>
+            <response code="201">Transação criada com sucesso.</response>
+            <response code="400">Dados inválidos, como valores de transação menores ou iguais a zero, ou usuário não encontrado.</response>
+        </member>
+        <member name="M:backend.Controllers.TransacaoController.ListarPorUsuario(System.Int32)">
+            <summary>
+            Lista todas as transações de um usuário específico.
+            </summary>
+            <param name="usuarioId">ID do usuário para o qual as transações serão listadas.</param>
+            <returns>Lista de transações associadas ao usuário.</returns>
+            <response code="200">Retorna as transações do usuário com sucesso.</response>
+            <response code="404">Se o usuário não for encontrado.</response>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Listar">
+            <summary>
+            Lista todos os usuários cadastrados no sistema.
+            </summary>
+            <returns>Lista de todos os usuários com status 200.</returns>
+            <response code="200">Retorna a lista de usuários com sucesso.</response>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Criar(backend.Models.Usuario)">
+            <summary>
+            Cria um novo usuário no sistema.
+            </summary>
+            <param name="usuario">Objeto contendo os dados do usuário a ser criado.</param>
+            <returns>Usuário criado com status 201.</returns>
+            <response code="201">Usuário criado com sucesso.</response>
+            <response code="400">Se os dados do usuário forem inválidos.</response>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Remover(System.Int32)">
+            <summary>
+            Remove um usuário do sistema e suas transações associadas.
+            </summary>
+            <param name="id">ID do usuário a ser removido.</param>
+            <returns>Mensagem de sucesso ou erro se o usuário não for encontrado.</returns>
+            <response code="200">Usuário e suas transações removidos com sucesso.</response>
+            <response code="404">Se o usuário não for encontrado.</response>
+        </member>
+        <member name="T:backend.Models.ResumoFinanceiro">
+            <summary>
+            Representa o resumo financeiro de um usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoFinanceiro.UsuarioId">
+            <summary>
+            Identificador único do usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoFinanceiro.Nome">
+            <summary>
+            Nome do usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoFinanceiro.TotalReceitas">
+            <summary>
+            Total de receitas usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoFinanceiro.TotalDespesas">
+            <summary>
+            Total de despesas usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoFinanceiro.Saldo">
+            <summary>
+            Saldo total do usuário.
+            </summary>
+        </member>
+        <member name="T:backend.Models.ResumoGeral">
+            <summary>
+            Representa o resumo financeiro geral de todos os usuários.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoGeral.Usuario">
+            <summary>
+            Representa o usuário cadastrado no sistema.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoGeral.TotalReceitas">
+            <summary>
+            Total de receitas do sistema.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoGeral.TotalDespesas">
+            <summary>
+            Total de despesas do sistema.
+            </summary>
+        </member>
+        <member name="P:backend.Models.ResumoGeral.SaldoLiquido">
+            <summary>
+            Saldo líquido calculado (total receitas - total despesas)
+            </summary>
+        </member>
+        <member name="T:backend.Models.Transacao">
+            <summary>
+            Representa uma transação financeira.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Transacao.Id">
+            <summary>
+            Identificador único da transação.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Transacao.Descricao">
+            <summary>
+            Descrição da transação.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Transacao.Valor">
+            <summary>
+            Valor monetário da transação.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Transacao.Tipo">
+            <summary>
+            Tipo da transação (receita ou despesa).
+            Valor padrão: "despesa".
+            </summary>
+        </member>
+        <member name="P:backend.Models.Transacao.UsuarioId">
+            <summary>
+            Identificador do usuário associado à transação.
+            </summary>
+        </member>
+        <member name="T:backend.Models.Usuario">
+            <summary>
+            Representa um usuário do sistema.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Usuario.Id">
+            <summary>
+            Identificador único do usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Usuario.Nome">
+            <summary>
+            Nome do usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Usuario.Idade">
+            <summary>
+            Idade do usuário.
+            </summary>
+        </member>
+        <member name="P:backend.Models.Usuario.Transacoes">
+            <summary>
+            Lista de transações associadas ao usuário.
+            </summary>
+        </member>
+        <member name="T:backend.Repositories.TransacaoRepository">
+            <summary>
+            Repositório para gerenciar operações relacionadas a transações.
+            </summary>
+        </member>
+        <member name="M:backend.Repositories.TransacaoRepository.Listar">
+            <summary>
+            Retorna a lista de todas as transações cadastradas.
+            </summary>
+            <returns>Lista de transações.</returns>
+        </member>
+        <member name="M:backend.Repositories.TransacaoRepository.Criar(backend.Models.Transacao,backend.Models.Usuario)">
+            <summary>
+            Cria uma nova transação.
+            </summary>
+            <param name="transacao">Dados da transação a ser criada.</param>
+            <param name="usuario">Usuário associado à transação.</param>
+            <returns>Transação criada ou null se a transação for inválida.</returns>
+        </member>
+        <member name="M:backend.Repositories.TransacaoRepository.ListarPorUsuario(System.Int32)">
+            <summary>
+            Retorna a lista de transações associadas a um usuário específico.
+            </summary>
+            <param name="usuarioId">ID do usuário.</param>
+            <returns>Lista de transações do usuário.</returns>
+        </member>
+        <member name="M:backend.Repositories.TransacaoRepository.RemoverPorUsuario(System.Int32)">
+            <summary>
+            Remove todas as transações associadas a um usuário.
+            </summary>
+            <param name="usuarioId">ID do usuário.</param>
+            <returns>Número de transações removidas.</returns>
+        </member>
+        <member name="T:backend.Repositories.UsuarioRepository">
+            <summary>
+            Repositório para gerenciar operações relacionadas a usuários.
+            </summary>
+        </member>
+        <member name="M:backend.Repositories.UsuarioRepository.#ctor(backend.Repositories.TransacaoRepository)">
+            <summary>
+            Inicializa uma nova instância do repositório de usuários.
+            </summary>
+            <param name="transacaoRepo">Repositório de transações para operações relacionadas.</param>
+        </member>
+        <member name="M:backend.Repositories.UsuarioRepository.Listar">
+            <summary>
+            Retorna a lista de todos os usuários cadastrados.
+            </summary>
+            <returns>Lista de usuários.</returns>
+        </member>
+        <member name="M:backend.Repositories.UsuarioRepository.Criar(backend.Models.Usuario)">
+            <summary>
+            Cria um novo usuário.
+            </summary>
+            <param name="usuario">Dados do usuário a ser criado.</param>
+            <returns>Usuário criado.</returns>
+        </member>
+        <member name="M:backend.Repositories.UsuarioRepository.ObterPorId(System.Int32)">
+            <summary>
+            Obtém um usuário pelo seu ID.
+            </summary>
+            <param name="id">ID do usuário.</param>
+            <returns>Usuário encontrado ou null se não existir.</returns>
+        </member>
+        <member name="M:backend.Repositories.UsuarioRepository.Remover(System.Int32)">
+            <summary>
+            Remove um usuário e suas transações associadas.
+            </summary>
+            <param name="id">ID do usuário a ser removido.</param>
+            <returns>True se o usuário foi removido com sucesso; caso contrário, false.</returns>
+        </member>
+    </members>
+</doc>

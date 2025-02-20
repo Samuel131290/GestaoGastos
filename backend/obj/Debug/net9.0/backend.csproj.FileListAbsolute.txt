@@ -1,0 +1,117 @@
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\appsettings.Development.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\appsettings.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\backend.staticwebassets.endpoints.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\backend.exe
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\backend.deps.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\backend.runtimeconfig.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\backend.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\backend.pdb
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.csproj.AssemblyReference.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.AssemblyInfoInputs.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.AssemblyInfo.cs
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.csproj.CoreCompileInputs.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cs
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\scopedcss\bundle\backend.styles.css
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.build.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.development.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.build.backend.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.backend.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.pack.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.csproj.Up2Date
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\refint\backend.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.pdb
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\ref\backend.dll
+F:\Maxiprod\backend\bin\Debug\net9.0\appsettings.Development.json
+F:\Maxiprod\backend\bin\Debug\net9.0\appsettings.json
+F:\Maxiprod\backend\bin\Debug\net9.0\backend.staticwebassets.endpoints.json
+F:\Maxiprod\backend\bin\Debug\net9.0\backend.exe
+F:\Maxiprod\backend\bin\Debug\net9.0\backend.deps.json
+F:\Maxiprod\backend\bin\Debug\net9.0\backend.runtimeconfig.json
+F:\Maxiprod\backend\bin\Debug\net9.0\backend.dll
+F:\Maxiprod\backend\bin\Debug\net9.0\backend.pdb
+F:\Maxiprod\backend\bin\Debug\net9.0\backend.xml
+F:\Maxiprod\backend\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\Maxiprod\backend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+F:\Maxiprod\backend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+F:\Maxiprod\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Maxiprod\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Maxiprod\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.csproj.AssemblyReference.cache
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.AssemblyInfoInputs.cache
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.AssemblyInfo.cs
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.csproj.CoreCompileInputs.cache
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cs
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cache
+F:\Maxiprod\backend\obj\Debug\net9.0\scopedcss\bundle\backend.styles.css
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.build.json
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.development.json
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.build.backend.props
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.backend.props
+F:\Maxiprod\backend\obj\Debug\net9.0\staticwebassets.pack.json
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.csproj.Up2Date
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.dll
+F:\Maxiprod\backend\obj\Debug\net9.0\refint\backend.dll
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.xml
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.pdb
+F:\Maxiprod\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
+F:\Maxiprod\backend\obj\Debug\net9.0\ref\backend.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\backend.xml
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Maxiprod\backend\obj\Debug\net9.0\backend.xml
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\appsettings.Development.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\appsettings.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\backend.staticwebassets.endpoints.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\backend.exe
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\backend.deps.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\backend.runtimeconfig.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\backend.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\backend.pdb
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\backend.xml
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.csproj.AssemblyReference.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.AssemblyInfoInputs.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.AssemblyInfo.cs
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.csproj.CoreCompileInputs.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cs
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.MvcApplicationPartsAssemblyInfo.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\scopedcss\bundle\backend.styles.css
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets.build.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets.development.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets\msbuild.build.backend.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.backend.props
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\staticwebassets.pack.json
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.csproj.Up2Date
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\refint\backend.dll
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.xml
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.pdb
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
+F:\Análise e Desenvolvimento de Sistemas - Metodista\Projetos\GestaoGastos\backend\obj\Debug\net9.0\ref\backend.dll
