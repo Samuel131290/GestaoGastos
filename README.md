@@ -52,7 +52,7 @@ tanto por usuário quanto de forma geral.
 
 ---
 
-## Como Executar o Projeto
+## COMO EXECUTAR O PROGRAMA?
 
 ### Pré-requisitos
 - **.NET SDK** (versão 6.0 ou superior): Para executar o backend.
