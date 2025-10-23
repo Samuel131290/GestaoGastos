@@ -34,7 +34,7 @@ tanto por usuário quanto de forma geral.
 - Listagem de usuários e transações.
 - Resumo financeiro detalhado.
 
-### Validações em Tempo Real**:
+### Validações em Tempo Real:
 - Validação de campos como nome, idade e valor.
 - Feedback visual para o usuário em caso de erros.
 
