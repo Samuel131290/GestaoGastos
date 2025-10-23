@@ -6,107 +6,106 @@ tanto por usuário quanto de forma geral.
 
 ---
 
-## Funcionalidades
+## Funcionalidades do Sistema
 
-### Backend
-- **Cadastro de Usuários**:
-  - Cadastre usuários com nome e idade.
-  - Validação de nome (apenas letras, espaços e caracteres acentuados).
-  - Validação de idade (deve ser maior que zero).
-- **Cadastro de Transações**:
-  - Registre transações do tipo "Receita" ou "Despesa".
-  - Validação de valor (deve ser maior que zero).
-  - Restrição para menores de idade: só podem registrar despesas.
-- **Resumo Financeiro**:
-  - Visualize o resumo financeiro por usuário, com totais de receitas, despesas e saldo.
-  - Visualize o resumo financeiro geral, com totais consolidados de receitas, despesas e saldo líquido.
-- **Exclusão de Usuários**:
-  - Remova usuários e todas as suas transações associadas.
+## Backend
 
-### Frontend
-- **Interface Intuitiva**:
-  - Formulários para cadastro de usuários e transações.
-  - Listagem de usuários e transações.
-  - Resumo financeiro detalhado.
-- **Validações em Tempo Real**:
-  - Validação de campos como nome, idade e valor.
-  - Feedback visual para o usuário em caso de erros.
-- **Atualização Automática**:
-  - A lista de usuários e transações é atualizada automaticamente após cadastros ou exclusões.
+### Cadastro de Usuários:
+- Cadastre usuários com nome e idade.
+- Validação de nome (apenas letras, espaços e caracteres acentuados).
+- Validação de idade (deve ser maior que zero).
+    
+### Cadastro de Transações:
+- Registre transações do tipo "Receita" ou "Despesa".
+- Validação de valor (deve ser maior que zero).
+- Restrição para menores de idade: só podem registrar despesas.
+  
+### Resumo Financeiro:
+- Visualize o resumo financeiro por usuário, com totais de receitas, despesas e saldo.
+- Visualize o resumo financeiro geral, com totais consolidados de receitas, despesas e saldo líquido.
+
+### Exclusão de Usuários:
+- Remova usuários e todas as suas transações associadas.
+
+## Frontend
+
+### Interface Intuitiva:
+- Formulários para cadastro de usuários e transações.
+- Listagem de usuários e transações.
+- Resumo financeiro detalhado.
+
+### Validações em Tempo Real**:
+- Validação de campos como nome, idade e valor.
+- Feedback visual para o usuário em caso de erros.
+
+### Atualização Automática:
+- A lista de usuários e transações é atualizada automaticamente após cadastros ou exclusões.
 
 ---
 
 ## Tecnologias Utilizadas
 
 ### Backend
-- **ASP.NET Core**: Framework para desenvolvimento de APIs RESTful.
-- **C#**: Linguagem de programação utilizada no backend.
-- **Injeção de Dependência**: Para gerenciar repositórios e serviços.
-- **Swagger**: Documentação automática da API (disponível em ambiente de desenvolvimento).
+- ASP.NET Core: Framework para desenvolvimento de APIs RESTful.
+- C#: Linguagem de programação utilizada no backend.
+- Injeção de Dependência: Para gerenciar repositórios e serviços.
+- Swagger: Documentação automática da API (disponível em ambiente de desenvolvimento).
 
 ### Frontend
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **TypeScript**: Adiciona tipagem estática ao JavaScript, melhorando a qualidade do código.
-- **Axios**: Cliente HTTP para consumir a API backend.
-- **CSS**: Estilização básica dos componentes.
+- React: Biblioteca JavaScript para construção de interfaces de usuário.
+- TypeScript: Adiciona tipagem estática ao JavaScript, melhorando a qualidade do código.
+- Axios: Cliente HTTP para consumir a API backend.
+- CSS: Estilização básica dos componentes.
 
 ---
 
 ## COMO EXECUTAR O PROGRAMA?
 
 ### Pré-requisitos
-- **.NET SDK** (versão 6.0 ou superior): Para executar o backend.
-- **Node.js** (versão 16 ou superior): Para executar o frontend.
-- **NPM** ou **Yarn**: Gerenciadores de pacotes para instalar as dependências do frontend.
+- .NET SDK (versão 6.0 ou superior): Para executar o backend.
+- Node.js (versão 16 ou superior): Para executar o frontend.
+- NPM ou Yarn: Gerenciadores de pacotes para instalar as dependências do frontend.
+- VS Code: IDE para executar o projeto.
 
 ---
 
-### Passo a Passo
+## Passo a Passo
 
-### 1. Backend:
+### 1. Abrir o Projeto:
+- Abra o projeto no VS Code e em seguida abra o terminar Git.
 
-- **Abra o terminal e navegue até a pasta do backend**:
+---
+
+### 2. Executar Backend:
+- No terminal, navegue até a pasta do backend:
   - cd backend
 
-- **Restaure as dependências e execute o projeto**:
+- Restaure as dependências e execute o backend do projeto:
   - dotnet restore
   - dotnet run
 
-  - O backend estará disponível em http://localhost:5043.
+- O backend estará disponível em http://localhost:5043.
 
-
-- **Caso necessário, instale o pacote do Cors, com o seguinte comando**:
+- Caso necessário, instale o pacote do Cors, com o seguinte comando:
   - dotnet add package Microsoft.AspNetCore.Cors
 
 ---
 
-### 2. Documentação:
+### 3. Executar Frontend:
 
-- **Acessar a documentação do programa**:
-  - A documentação estará disponível em http://localhost:5043/swagger/index.html
-
-
-- **Caso necessário, no terminal do backend, instale o Swagger via NuGet, com o seguinte comando**:
-  - dotnet add package Swashbuckle.AspNetCore
-
----
-
-### 3. Frontend:
-
-- **Abra um novo terminal e navegue até a pasta do frontend**:
+- Abra um novo terminal Git e navegue até a pasta frontend:
   - cd frontend
-
-- **Execute o projeto**:
-  - npm run dev
-
-- **Acesse a Aplicação**:
-  - Abra o navegador e acesse http://localhost:5173.
-
-
-- **Instale as dependências (caso a pasta node_modules não existir)**:
+ 
+- Instale as dependências do node:
   - npm install
 
-- **Caso necessário, instale as demais dependências (apenas caso o programa apresentar erros de dependências)**:
+- Execute o frontend do projeto:
+  - npm run dev
+    
+- Acesse a Aplicação:
+  - Abra o navegador e acesse http://localhost:5173.
+
+- Se necessário, instale as demais dependências (apenas caso o programa apresentar erros de dependências):
   - npm install axios
   - npm install react react-dom react-scripts
   - npm install react-router-dom
@@ -114,3 +113,11 @@ tanto por usuário quanto de forma geral.
   - npm install styled-components
 
 ---
+
+### 4. Documentação:
+
+- Acesse a documentação do programa em:
+  - A documentação estará disponível em http://localhost:5043/swagger/index.html
+
+- Caso ocorra erro, no terminal do backend, instale o Swagger via NuGet, com o seguinte comando:
+  - dotnet add package Swashbuckle.AspNetCore
