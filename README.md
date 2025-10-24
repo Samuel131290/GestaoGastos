@@ -72,7 +72,7 @@ tanto por usuário quanto de forma geral.
 ## Passo a Passo
 
 ### 1. Abrir o Projeto:
-- Abra o projeto no VS Code e em seguida abra o terminar Git.
+- Abra o projeto no VS Code e em seguida abra o terminal Git.
 
 ---
 
